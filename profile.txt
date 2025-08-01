@@ -70,6 +70,10 @@ WordGame
 A clone of the popular Wordle game, where players have to guess the correct word in six attempts.
 Vite, Tailwind, TypeScript, React, Netlify
 
+Personal Chatbot
+Personal chatbot using streamlit and openrouter. integrated in my portfolio website
+Python, Streamlit, OpenRouter
+
 Email : vishmaycode@gmail.com
 Website : https://vishcodes.com
 Github : https://github.com/vishmaycode
