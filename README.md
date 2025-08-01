@@ -6,13 +6,12 @@ A Streamlit-based chatbot that answers questions about Vishmay Karbotkar using i
 - Friendly chatbot interface using Streamlit
 - Answers only about Vishmay Karbotkar
 - Uses profile.txt for all responses
-- Short, concise greetings (5 words)
 
 ## Setup
 
 1. **Clone the repository**
    ```bash
-   git clone <repo-url>
+   git clone git@github.com:vishmaycode/personal-chatbot.git
    cd personal-chatbot
    ```
 
@@ -43,6 +42,3 @@ A Streamlit-based chatbot that answers questions about Vishmay Karbotkar using i
 
 ## Environment Variables
 - `OPENROUTER_API_KEY`: Your OpenRouter API key (see `.env.example`).
-
-## License
-MIT
