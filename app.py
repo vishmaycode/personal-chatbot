@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 st.set_page_config(page_title="Vishmay Info", page_icon="😎")
-st.title("Know more about me!")
+st.title("Know me!")
 
 
 # Load profile text directly
