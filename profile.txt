@@ -1,0 +1,85 @@
+Hi, I'm Vishmay Karbotkar, a passionate full-stack developer with expertise in modern web technologies and DevOps. I specialize in creating responsive, user-friendly applications that solve real-world problems.
+
+I have experience in software development, working with databases, scaling applications, and deploying to cloud platforms. along with DevOps to ensure smooth CI/CD pipelines and infrastructure management.
+
+When I'm not coding, you can find me exploring new technologies, traveling, or enjoying a good cup of coffee while reading tech blogs.
+
+Currently, I'm working as a Senior Software Developer in Goa-India.
+
+Work journey
+
+Senior Software Developer
+SapnaTech India LLP (Sapna Group)
+2023 - Present
+SapnaTech India LLP (Sapna Group) logo
+Developed and maintained client applications using React, Angular, and Ionic for front-end development. Built scalable backends using Python, Node.js, Firebase, and Google Cloud Platform (GCP). Worked closely with cross-functional teams and individuals to deliver complex solutions. Integrated OpenCV and TensorFlow for machine learning and computer vision tasks. Built AI-powered chatbots using Gemini and OpenAI. Managed GCP DevOps processes, Docker and CI/CD.
+
+
+Work
+Web Programmer
+Sapna Technologies (Sapna Group)
+2021 - 2023
+Sapna Technologies (Sapna Group) logo
+Developed and maintained custom client websites using the LAMP stack (Linux, Apache, MySQL, PHP). Worked on a highly customizable e-learning platform with complex requirements, including integration of open-source games. Utilized jQuery for dynamic front-end interactions and implemented cron jobs for automated tasks. Followed Git for version control and adhered to Agile development practices to deliver features efficiently and iteratively.
+
+Education journey
+
+Senior Software Developer
+SapnaTech India LLP (Sapna Group)
+2023 - Present
+Developed and maintained client applications using React, Angular, and Ionic for front-end development. Built scalable backends using Python, Node.js, Firebase, and Google Cloud Platform (GCP). Worked closely with cross-functional teams and individuals to deliver complex solutions. Integrated OpenCV and TensorFlow for machine learning and computer vision tasks. Built AI-powered chatbots using Gemini and OpenAI. Managed GCP DevOps processes, Docker and CI/CD.
+
+
+Work
+Web Programmer
+Sapna Technologies (Sapna Group)
+2021 - 2023
+Developed and maintained custom client websites using the LAMP stack (Linux, Apache, MySQL, PHP). Worked on a highly customizable e-learning platform with complex requirements, including integration of open-source games. Utilized jQuery for dynamic front-end interactions and implemented cron jobs for automated tasks. Followed Git for version control and adhered to Agile development practices to deliver features efficiently and iteratively.
+
+Education
+Bachelor's Degree in CS
+St. Xavier's College, Mapusa-Goa
+2018 - 2021
+Earned a Bachelor of Science (B.Sc.) in Computer Science, with a major in Computer Science complemented by studies in Electronics and Physics. Gained expertise in Android development, data science, web development, and software engineering, along with hands-on experience in programming, algorithms, and modern technologies.
+
+
+Education
+Higher Secondary
+Shri Shantadurga Higher Secondary School, Bicholim-Goa
+2016 - 2018
+Completed higher secondary education with a focus on Computer Science, along with core subjects in Physics, Chemistry, and Mathematics (PCM). Gained a strong foundation in programming, problem-solving, and analytical thinking.
+
+
+
+
+My projects:
+Sakshardham NGO Website
+A website for the Sakshardham NGO featuring blogs, information about the organization, and community-driven content.
+React
+Firebase, ImageKit, TypeScript, Tailwind, Netlify
+
+Sakshardham NGO Website (OLD)
+A website for the Sakshardham NGO featuring blogs, information about the organization, and community-driven content. The content is fully manageable through an admin panel.
+React, PHP, MySQL, Bootstrap, InfinityFree, Google ReCaptcha
+
+Personal Portfolio
+My personal portfolio website showcasing my work and projects. It features a clean, responsive design.
+React, Vite, TypeScript, Firebase, Shadcn, Tailwind, Netlify
+
+WordGame
+A clone of the popular Wordle game, where players have to guess the correct word in six attempts.
+Vite, Tailwind, TypeScript, React, Netlify
+
+Email : vishmaycode@gmail.com
+Website : https://vishcodes.com
+Github : https://github.com/vishmaycode
+Twitter/X : @VishmayK7 (https://x.com/VishmayK7)
+Instagram : __vishmay__ (https://www.instagram.com/__vishmay__)
+LinkedIn : in/vishmay (https://www.linkedin.com/in/vishmay)
+Facebook : vishmay.karbotkar (https://www.facebook.com/vishmay.karbotkar)
+
+I work with
+
+Google Cloud Platform, Firebase, Python, NodeJs, React, PHP, MySQL, HTML, CSS, Javascript, jQuery, Bootstrap, tailwind, SCSS, Apline, Angular, Ionic, Flask, LAMP stack
+
+I usualy use linux distro, i also like to customize my linux.
