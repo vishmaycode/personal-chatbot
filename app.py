@@ -9,8 +9,40 @@ import os
 load_dotenv()
 
 st.set_page_config(page_title="Vishmay Info", page_icon="😎")
-st.title("Know me!")
 
+# Set your 6-digit PIN here (you can change this)
+CORRECT_PIN = os.getenv("ACCESS_KEY")
+
+# Initialize session state for authentication
+if "authenticated" not in st.session_state:
+    st.session_state.authenticated = False
+
+# PIN Authentication Screen
+if not st.session_state.authenticated:
+    st.title("Access Control")
+    st.write("Please enter the 6-digit PIN to access the chatbot:")
+    
+    # Create a form to handle Enter key submission
+    with st.form(key="pin_form"):
+        pin_input = st.text_input("PIN:", type="password", max_chars=6, placeholder="Enter 6-digit PIN")
+        
+        col1, col2, col3 = st.columns([1, 1, 1])
+        with col2:
+            submit_button = st.form_submit_button("Enter", use_container_width=True)
+        
+        # Check PIN when form is submitted (either by button click or Enter key)
+        if submit_button:
+            if pin_input == CORRECT_PIN:
+                st.session_state.authenticated = True
+                st.success("Access granted!")
+                st.rerun()
+            else:
+                st.error("Incorrect PIN. Please try again.")
+    
+    st.stop()  # Stop execution here if not authenticated
+
+# Main Chatbot (only shown after authentication)
+st.title("Know me!")
 
 # Load profile text directly
 @st.cache_resource
@@ -37,6 +69,14 @@ if "messages" not in st.session_state:
     # Add initial assistant message
     st.session_state.messages.append(SystemMessage(content="Hi, I am Vishmay."))
 
+# Add logout button
+col1, col2, col3 = st.columns([1, 1, 1])
+with col3:
+    if st.button("Logout"):
+        st.session_state.authenticated = False
+        st.session_state.messages = []
+        st.rerun()
+
 query = st.chat_input("Ask about my experience or skills...")
 
 if query:
@@ -51,8 +91,8 @@ if query:
     )
     response = llm([system_msg, HumanMessage(content=query)])
     st.session_state.messages.append(response)
+
 for msg in st.session_state.messages:
     role = "user" if isinstance(msg, HumanMessage) else "assistant"
     with st.chat_message(role):
         st.markdown(msg.content)
-
