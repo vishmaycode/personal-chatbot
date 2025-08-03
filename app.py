@@ -19,7 +19,6 @@ if "authenticated" not in st.session_state:
 
 # PIN Authentication Screen
 if not st.session_state.authenticated:
-    st.title("Access Control")
     st.write("Please enter the 6-digit PIN to access the chatbot:")
     st.write("In case you dont have the pin, please speak with the website owner to get the 6 digit PIN:")
     
