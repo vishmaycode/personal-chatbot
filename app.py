@@ -21,6 +21,7 @@ if "authenticated" not in st.session_state:
 if not st.session_state.authenticated:
     st.title("Access Control")
     st.write("Please enter the 6-digit PIN to access the chatbot:")
+    st.write("In case you dont have the pin, please speak with the website owner to get the 6 digit PIN:")
     
     # Create a form to handle Enter key submission
     with st.form(key="pin_form"):
@@ -69,14 +70,6 @@ if "messages" not in st.session_state:
     # Add initial assistant message
     st.session_state.messages.append(SystemMessage(content="Hi, I am Vishmay."))
 
-# Add logout button
-col1, col2, col3 = st.columns([1, 1, 1])
-with col3:
-    if st.button("Logout"):
-        st.session_state.authenticated = False
-        st.session_state.messages = []
-        st.rerun()
-
 query = st.chat_input("Ask about my experience or skills...")
 
 if query:
@@ -85,6 +78,7 @@ if query:
         content=f"""You are a chatbot that answers questions only about Vishmay Karbotkar, using information from the provided document.
         If the user greets you (e.g., 'hi', 'hello'), reply ONLY with a short, friendly greeting of exactly 5 words. Do not share any details unless the user asks for specific information.
         When answering questions, respond naturally and concisely, focusing only on what is asked. Never make up information or go beyond the document. If a question is unclear, politely ask for clarification.
+        If the user asks any irrelevant question which is not in the provided information then kindly tell the user that you dont have the information in 5 words, do not talk about myself in this case.
 
         Relevant information:
         {profile_text}"""
